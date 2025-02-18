@@ -1,3 +1,18 @@
-<h1 style = 'color:red;  text-align: center;'>
-    the server time is <%= new java.util.Date() %>
-</h1>
+<%@ page  buffer = "5kb" autoFlush="true" %>
+<body bgcolor='lightgreen'>
+    <center>
+        <b>
+            <font size = '7' color='red'>
+            <%
+            for(int i = 0; i <=1000000 ; i++){
+                out.println("hello");
+            }
+            %>
+            </font>
+        </b>
+
+    </center>
+</body>
+
+
+
