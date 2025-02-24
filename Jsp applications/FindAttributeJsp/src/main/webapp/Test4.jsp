@@ -8,17 +8,17 @@
 </head>
 <body>
 <%
-pageContext.setAttribute("a","page");
-pageContext.setAttribute("a","request");
-pageContext.setAttribute("a","session");
-pageContext.setAttribute("a","application");
+pageContext.setAttribute("page","page");
+request.setAttribute("request","request");
+session.setAttribute("session","session");
+application.setAttribute("application","application");
 
 
 %>
 
 <h1>
 Find attribute :: 
-<%= pageContext.findAttribute("a") %>
+<%= pageContext.findAttribute("session") %>
 </h1>
 </body>
 </html>

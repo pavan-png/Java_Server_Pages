@@ -8,9 +8,9 @@
 </head>
 <body>
 <%
-pageContext.setAttribute("a","page");
-pageContext.setAttribute("a","request");
-pageContext.setAttribute("a","session");
+pageContext.setAttribute("p","page");
+pageContext.setAttribute("r","request");
+pageContext.setAttribute("s","session");
 pageContext.setAttribute("a","application");
 
 
@@ -18,7 +18,7 @@ pageContext.setAttribute("a","application");
 
 <h1>
 Find attribute :: 
-<%= pageContext.findAttribute("a") %>
+<%= pageContext.findAttribute("s") %>
 </h1>
 </body>
 </html>

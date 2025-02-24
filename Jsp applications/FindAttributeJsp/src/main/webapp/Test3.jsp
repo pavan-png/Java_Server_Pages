@@ -9,9 +9,9 @@
 <body>
 <%
 pageContext.setAttribute("a","page");
-pageContext.setAttribute("a","request");
-pageContext.setAttribute("a","session");
-pageContext.setAttribute("a","application");
+request.setAttribute("a","request");
+session.setAttribute("a","session");
+application.setAttribute("a","application");
 
 
 %>
