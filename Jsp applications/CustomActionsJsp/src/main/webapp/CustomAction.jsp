@@ -9,7 +9,9 @@
 </head>
 <body>
 <h1>
-<c:out value="welcome to orcas "></c:out>
+<c:out value="welcome to orcas "></c:out><br/>
+<c:out value="${param.user }"></c:out><br/>
+<c:out value = "${param.pswd }" default = "456"> </c:out>
 </h1>
 </body>
 </html>
